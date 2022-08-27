@@ -1,0 +1,18 @@
+.item2{
+    background-color: #7C4DFF;
+    border-radius: 45px 0px 45px 0px;
+     width: 75%; 
+}
+.navbarleft{
+font-size: 35px;
+text-align: center;
+padding: 7px 0px;
+}
+
+.all-navbar{
+position: relative;
+bottom: 0;
+left: 0;
+right: 0;
+top: 150px;
+}

@@ -1,13 +1,43 @@
-body {
+*{
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root{
+  background-color: #CFD8DC;
 }
+
+.big-div{
+  background-color: #fff;
+  width: 70%;
+  height: 85vh;
+  margin: auto;
+  margin-top: 3.5%;
+  border-radius: 45px;
+  box-shadow: 25px 25px 30px gray;
+}
+
+/* grid  */
+
+.item2 { grid-area: menu; }
+.item3 { 
+grid-area: main;
+background-color: #ECEFF1;
+border-radius: 0px 0px 45px 45px;
+}
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+
+.grid-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-areas:
+    'menu main main main main main main right right right'
+    'menu main main main main main main right right right'
+    'footer footer footer footer footer footer footer right right right'
+    'footer footer footer footer footer footer footer right right right';
+}
+

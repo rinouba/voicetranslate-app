@@ -1,0 +1,51 @@
+.bigup-contianer{
+    position: relative;
+    width: 70%;
+    right: 0;
+    left: 20%;
+    top: 30px;
+}
+.background-wifi{
+    display: inline-block;
+    width: 65px;
+    background-color: #ECEFF1;
+    text-align: center;
+    height: 65px;
+    border-radius: 13px;
+}
+
+.background-wifi img{
+    margin-top: 21px;
+    width: 35px;
+}
+.background-wifis{
+    display: inline-block;
+    width: 65px;
+    background-color: #ECEFF1;
+    text-align: center;
+    height: 65px;
+    border-radius: 13px;
+}
+
+.background-wifis img{
+    margin-top: 16px;
+    width: 45px;
+}
+
+/* part 2  */
+
+.card-right{
+    background-color: #7C4DFF;
+    border-radius: 13px;
+    height: 100px;
+}
+
+.card-rights{
+    background-color: #ECEFF1;
+    border-radius: 13px;
+    height: 100px;
+}
+
+.color2{
+    color: #7C4DFF;
+}
