@@ -5,6 +5,8 @@
     border-radius: 0px 25px 25px 0px ;
     background-color: #ECEFF1;
     padding: 15px 0;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
 .row-footer{
@@ -13,6 +15,7 @@
     text-align: center;
     width: 70%;
     top: 40px !important;
+    bottom: 2px !important;
 }
 
 .card-bottem{
@@ -21,4 +24,27 @@
     height: 120px;
     border-radius: 20px;
     width: 20%;
+    cursor: pointer;
+    transition: all 0.3s;
 }
+.card-bottem:hover{
+    background-color: #7C4DFF;
+}
+.card-bottem:hover .card-bottem-i{
+    color: #ECEFF1 !important;
+}
+
+a{
+    color: black !important;
+}
+.logout-icon{
+    transition: all 0.3s;
+}
+.logout:hover .logout-icon{
+    color: #fff;
+    cursor: pointer;
+}
+.logout:hover {
+    background-color: #7C4DFF;
+}
+

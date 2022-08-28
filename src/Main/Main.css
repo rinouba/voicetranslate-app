@@ -43,12 +43,13 @@ margin-left: 60%;
     background-color: #fff;
     border-radius: 15px;
     color:#7C4DFF ;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 .row-main-right{
     position: absolute;
     text-align: center;
     margin-top: 70px !important; 
-
     width:  60px!important;
     height:  60px!important;
     font-size: 35px;
@@ -56,8 +57,25 @@ margin-left: 60%;
     border-radius: 15px;
     color:#7C4DFF ;
     right: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.row-main-right:hover {
+    background-color: #7C4DFF;
+    color: #fff;
 }
 
+.row-main-right:active{
+    font-size: 40px;
+}
+.row-main-left:hover{
+    background-color: #7C4DFF;
+    color: #fff;
+}
+
+.row-main-left:active{
+    font-size: 40px;
+}
 /* bottem */
 
 .item3{
@@ -100,7 +118,7 @@ margin-left: 60%;
     position: absolute;
     bottom: 45px;
     width: 20%;
-    left: 32%;
+    left: 27%;
 }
 
 .card-left{
@@ -110,6 +128,7 @@ margin-left: 60%;
     height: 100px;
     border-radius: 15px;
     text-align: center;
+    transition: all 0.3s;
 }
 
 .card-div{
@@ -122,4 +141,12 @@ margin-left: 60%;
 
 .bg-color1{
     background-color: #7C4DFF;
+}
+.card-left:hover{
+    cursor: pointer;
+    background-color: #7C4DFF;
+}
+
+.card-left:hover .color1{
+    color: #fff;
 }

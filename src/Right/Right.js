@@ -20,9 +20,15 @@ function Right() {
 
                 <div>
                 
-                <div class="form-check form-switch">
-                 <input class="form-check-input fs-3 mt-3" type="checkbox" id="flexSwitchCheckChecked" checked/>
+                <label class="label mt-3 me-3">
+                <div class="toggle">
+                <input class="toggle-state" type="checkbox" name="check" value="check" />
+                <div class="indicator"></div>
                 </div>
+                </label>
+
+
+
                 </div>
             </div> 
 
@@ -39,9 +45,13 @@ function Right() {
 
                 <div>
                 
-                <div class="form-check form-switch">
-                 <input class="form-check-input fs-3 mt-3" type="checkbox" id="flexSwitchCheckChecked" checked/>
+                <label class="label mt-3 me-3">
+                <div class="toggle">
+                <input class="toggle-state" type="checkbox" name="check" value="check" />
+                <div class="indicator"></div>
                 </div>
+                </label>
+
                 </div>
             </div> 
 
@@ -52,9 +62,12 @@ function Right() {
                     <div class="bi bi-cup-hot fs-1"></div>
                     <div className='mx-4'>Coffee maker</div>
                 </div>
-                <div class="form-check form-switch mt-3">
-                 <input class="form-check-input fs-3 mt-3" type="checkbox" id="flexSwitchCheckChecked" checked/>
+                <label class="label mt-3 me-3">
+                <div class="toggle">
+                <input class="toggle-state" type="checkbox" name="check" value="check" />
+                <div class="indicator"></div>
                 </div>
+                </label>
             </div>
 
             <div className='card-right d-flex justify-content-between text-center mt-3'>
@@ -62,9 +75,12 @@ function Right() {
                 <i class="bi bi-train-lightrail-front fs-1"></i> 
                     <div className='mx-4'>Refrigerator</div>
                 </div>
-                <div class="form-check form-switch mt-3">
-                 <input class="form-check-input fs-3 mt-3" type="checkbox" id="flexSwitchCheckChecked" checked/>
+                <label class="label mt-3 me-3">
+                <div class="toggle">
+                <input class="toggle-state" type="checkbox" name="check" value="check" />
+                <div class="indicator"></div>
                 </div>
+                </label>
             </div>
 
             <div className='card-rights d-flex justify-content-between text-center mt-3'>
@@ -72,9 +88,12 @@ function Right() {
                 <i class="bi bi-display fs-1 color2"></i>
                     <div className='mx-4 text-dark'>SmartTV</div>
                 </div>
-                <div class="form-check form-switch mt-3">
-                 <input class="form-check-input fs-3 mt-3" type="checkbox" id="flexSwitchCheckChecked" checked/>
+                <label class="label mt-3 me-3">
+                <div class="toggle">
+                <input class="toggle-state" type="checkbox" name="check" value="check" />
+                <div class="indicator"></div>
                 </div>
+                </label>
             </div>
 
             <div className='card-rights d-flex justify-content-between text-center mt-3'>
@@ -82,9 +101,12 @@ function Right() {
                 <i class="bi bi-fan fs-1 color2"></i>
                     <div className='mx-4 text-dark'>Fan</div>
                 </div>
-                <div class="form-check form-switch mt-3">
-                 <input class="form-check-input fs-3 mt-3" type="checkbox" id="flexSwitchCheckChecked" checked/>
+                <label class="label mt-3 me-3">
+                <div class="toggle">
+                <input class="toggle-state" type="checkbox" name="check" value="check" />
+                <div class="indicator"></div>
                 </div>
+                </label>
             </div>
         </div>
     </div>
